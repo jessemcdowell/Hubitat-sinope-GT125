@@ -1423,14 +1423,14 @@ private sendEventPublish(evt)	{
 def invert(id) {
     log_debug("invert id:${id}")
     """The Api_ID must be sent in reversed order"""
-    def k1 = id[14..15]
-    def k2 = id[12..13]
-    def k3 = id[10..11]
-    def k4 = id[8..9]
-    def k5 = id[6..7]
-    def k6 = id[4..5]
-    def k7 = id[2..3]
-    def k8 = id[0..1]
+    def k1 = id[15..16]
+    def k2 = id[13..14]
+    def k3 = id[11..12]
+    def k4 = id[9..10]
+    def k5 = id[7..8]
+    def k6 = id[5..6]
+    def k7 = id[3..4]
+    def k8 = id[1..2]
     return k1+k2+k3+k4+k5+k6+k7+k8
 }
 
